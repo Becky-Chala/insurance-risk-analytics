@@ -193,6 +193,5 @@ cython_debug/
 .cursorignore
 .cursorindexingignore
 .venv/
-data
-
+data/*
 !data/*.dvc
