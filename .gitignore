@@ -195,9 +195,10 @@ cython_debug/
 .venv/
 data/*
 !data/*.dvc
+# Ignore only notebooks themselves
 notebooks/*.ipynb
-!notebooks/*.pkl.dvc
+
+# Allow .pkl and .dvc model artifacts inside notebooks/
 !notebooks/*.pkl
-notebooks/
-*.pkl
-*.dvc
+!notebooks/*.pkl.dvc
+
