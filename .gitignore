@@ -195,3 +195,6 @@ cython_debug/
 .venv/
 data/*
 !data/*.dvc
+notebooks/*.ipynb
+!notebooks/*.pkl.dvc
+!notebooks/*.pkl
