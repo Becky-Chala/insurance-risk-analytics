@@ -198,3 +198,6 @@ data/*
 notebooks/*.ipynb
 !notebooks/*.pkl.dvc
 !notebooks/*.pkl
+notebooks/
+*.pkl
+*.dvc
